@@ -84,19 +84,19 @@ The migration procedure also captures and returns SQL Server error information w
 
 The migration was validated by comparing source and target record counts.
 
-Table	Source	Target
-Categories	30	30
-Customers	50,000	50,000
-Employees	1,000	1,000
+Table	       Source	       Target
+Categories	30	       30
+Customers	50,000	       50,000
+Employees	1,000	       1,000
 Order Items	600,000	600,000
-Orders	300,000	300,000
+Orders	       300,000	 300,000
 Payments	300,000	300,000
-Products	10,000	10,000
-Promotions	50	50
-Returns	30,000	30,000
+Products	10,000	       10,000
+Promotions	50	       50
+Returns	30,000	       30,000
 Shipments	300,000	300,000
-Stores	100	100
-Suppliers	200	200
+Stores	       100	       100
+Suppliers	200	       200
 
 Result: 12/12 tables reconciled successfully.
 
